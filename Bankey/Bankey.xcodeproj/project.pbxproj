@@ -28,6 +28,7 @@
 		AC86BA382776FA21009504D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC86BA362776FA21009504D7 /* LaunchScreen.storyboard */; };
 		AC86BA422776FF65009504D7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86BA412776FF65009504D7 /* LoginView.swift */; };
 		ACB4E311279BEBF700D24EBE /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4E310279BEBF600D24EBE /* UITextField+SecureToggle.swift */; };
+		ACE3D97D27A1107C006D6A6B /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3D97C27A1107C006D6A6B /* ShakeyBellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		AC86BA392776FA21009504D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC86BA412776FF65009504D7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ACB4E310279BEBF600D24EBE /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		ACE3D97C27A1107C006D6A6B /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				AC86BA402776FEFB009504D7 /* Login */,
 				AC06105B277821D7000B8E27 /* Onboarding */,
 				AC5196AB2781B1EB0099BC98 /* AccountSummary */,
+				ACE3D97B27A11042006D6A6B /* Components */,
 				AC8697272779356B00722053 /* Utils */,
 				AC86BA3F2776FEC9009504D7 /* Files */,
 			);
@@ -193,6 +196,14 @@
 				AC49E4AB2778B1E9008641C9 /* DummyViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		ACE3D97B27A11042006D6A6B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3D97C27A1107C006D6A6B /* ShakeyBellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 			files = (
 				AC518E662781F5DA007AA52A /* AccountSummaryHeaderView.swift in Sources */,
 				AC0497412789691A0063B095 /* AccountSummaryCell.swift in Sources */,
+				ACE3D97D27A1107C006D6A6B /* ShakeyBellView.swift in Sources */,
 				AC49E4AC2778B1E9008641C9 /* DummyViewController.swift in Sources */,
 				AC86BA302776FA1D009504D7 /* LoginViewController.swift in Sources */,
 				AC6FE153278AE21300F82308 /* CurrencyFormatter.swift in Sources */,
